@@ -1,5 +1,5 @@
 "use strict";
-"Js introduction  |  Variables  |  Data Types";
+// "Js introduction  |  Variables  |  Data Types";
 // 1.Bizga 2ta son berilgan ularning yig'indisini topuvchi dastur tuzing.(-7,10)
 // let a = -7;
 // let b = 10;
@@ -58,7 +58,7 @@
 // b = birlik;
 // birlik = onlik;
 // onlik = b;
-// console.log(onlik,birlik);
+// console.log(onlik+""+birlik);
 
 // 11.Uch xonalik son berilgan.Uning yuzlar xonasidagi raqamini aniqlovchi dastur tuzing.
 // let a = 836;
@@ -85,7 +85,7 @@
 // b = birlik;
 // birlik = yuzlik;
 // yuzlik = b;
-// console.log(yuzlik,onlik5,birlik);
+// console.log(yuzlik + "" + onlik5 + "" + birlik);
 
 // 14.Uch xonalik son berilgan.Uning o'nliklar xonasidagi raqam bilan yuzliklar xonasidagi raqamni almashtirishdan hosil bo'lgan sonni aniqlovchi dastur tuzing.(Kirish=123;Natija=213;)
 // let a = 123;
@@ -97,12 +97,12 @@
 // b = yuzlik;
 // yuzlik = onlik2;
 // onlik2 = b;
-// console.log(yuzlik, onlik2, birlik);
+// console.log(yuzlik + "" + onlik2 + "" + birlik);
 
 // 15.Ikkta son berilgan.Ularning qiymatlarini qo'shimcha o'zgartiruvchi ishlatmasdan o'rnini almashtiruvchi dastur tuzing.
 // chala!!1
 
-"Math  |  Operators |  Comparisons";
+// "Math  |  Operators |  Comparisons";
 // 1.A butun son berilgan.jumlani rostlikka tekshiring.A mubat son.
 // let a = 2;
 // console.log(a > 0);
@@ -163,7 +163,7 @@
 // let b = -1;
 // console.log(a > 0 || b > 0);
 
-"If else  |  Ternary operators  |  Switch";
+// "If else  |  Ternary operators  |  Switch";
 // 1.Ixtiyoriy A sonini juft yoki toqligini aniqlang.Agar A soni juft bo'lsa console da "A soni juft" degan aks holda "A soni toq" habar chiqaring.
 // let a = 9;
 // if (a % 2 == 0) {
@@ -243,15 +243,10 @@
 // }
 
 // 10.Uchta son berilgan.Shu sonlarni o'rtachasini aniqlovchi dastur tuzing.
-// let a = 3;
-// let b = 7;
-// let c = -1;
-// if (a > b && b > c) {
-//     console.log(b+"-soni o'rtacha");
-
-// } else {
-// }
-// chala!!!
+// let a = 1;
+// let b = -9;
+// let c = 5;
+// chala
 
 // 11.Hafta kunlari(1-7gacha) sonda kiritiladi.Shu songa mas hafta kunini ekranga chiqazuvchi dastur tuzing.
 // let a = 8;
@@ -350,7 +345,8 @@
 //     break;
 // }
 
-"Loops - For  |  While  |  Do while";
+// "Loops - For  |  While  |  Do while";
+
 // 1. 1dan 10gacha bo'lgan butun sonlarni ekranga chiqaruvchi dastur tuzing.
 // for (let i = 1; i < 10; i++) {
 //   console.log(i);
@@ -401,10 +397,9 @@
 
 // 8.Bir kg konfet narxi berilgan 1,2,...,10kg konfet narxini hisoblovchi dastur tuzing.
 // let kg = 5000;
-// for (let i = kg; i <= 10; i++) {
-//   console.log(i);
+// for (let i = 1; i <= 10; i++) {
+//   console.log(kg * i);
 // }
-// chala
 
 // 9.To'rtxonalik sonlar orasida 47ga bo'lganda qoldiq 43ga teng bo'lgan sonlarni topuvchi dastur tuzing.
 // for (let i = 1000; i <= 9999; i++) {
